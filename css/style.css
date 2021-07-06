@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/* menu area start  */
+.menu-area{
+padding: 0 11%;
+}
+.menu-area ul{
+    display: flex;
+    padding: 25px 9px;
+}
+.menu-area ul li{
+    list-style-type: none;
+}
+.menu-area ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    padding: 0 19px;
+  font-family: 'Ubuntu', sans-serif;;
+}
+
+
+/* menu area ends  */
+
+
+/* header area start */
+
+#name {
+    color: coral;
+}
+
+.header-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.header-area .left-content h3 {
+    font-size: 3rem;
+    line-height: 75px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header-area .left-content p {
+    font-size: 25px;
+    margin: 45px 0;
+    line-height: 45px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.header-area .left-content a {
+    text-decoration: none;
+    font-size: 25px;
+    background-image: linear-gradient(lightSalmon, tomato);
+    color: #fff;
+    padding: 15px 11px;
+    border-radius: 29px;
+}
+
+.header-area .right-content img {
+    height: 555px;
+}
+
+/* header area ends  */
+
+/* about area start */
+
+.about-area {
+    background-image: url('../images/shapes/about-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+}
+
+.about-area .left-content {
+    height: 555px;
+}
+
+.about-area .left-content img {
+    height: 100%;
+    width: auto;
+}
+.about-area .right-content{
+    width: 455px;
+}
+
+.about-area .right-content p{
+    margin-bottom: 45px;
+    font-size: 25px;
+    line-height: 39px;
+    margin-top: 25px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.about-area .right-content a {
+    text-decoration: none;
+    font-size: 25px;
+    background-image: linear-gradient(lightSalmon, tomato);
+    color: #fff;
+    padding: 15px 11px;
+    border-radius: 29px;
+}
+
+/* about area ends */
+
+/* my resipies area start */
+.my-recipies-title{
+    padding: 25px 20%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.my-recipies-title p{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.all-card{
+    display: flex;
+    padding: 0 5%;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+.all-card .single-card {
+    width: 355px;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 5px 35px #ddd;
+    border-radius: 25px;
+}
+.all-card .single-card h3{
+    line-height: 35px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 9px;
+}
+.all-card .single-card p{
+    line-height: 25px;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.all-card .single-card  img{
+    width: 355px;
+}
+
+/* my resipies area ends  */
+
+/* popular product area start */
+.popular-food-title{
+    padding: 25px 20%;
+    text-align: center;
+
+}
+.popular-food-area .all-card .single-card  img{
+    width: 355px;
+    height: 300px;
+}
+
+/* popular product area ends  */
+
+/* distance area start */
+.distance-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 5%;
+    background: #fff;
+    box-shadow: 0 5px 35px #ddd;
+    padding: 55px 37px;
+    text-align: center;
+    border-radius: 17px;
+    margin-bottom: 35px;
+    
+}
+
+/* distance area ends  */
+
+/* footer area start */
+
+#food {
+    color: aqua;
+    margin-right: 15px;
+}
+.footer{
+    text-align: center;
+    padding: 25px 0;
+    background: #0B0D17;
+}
+.footer h3{
+    color: #5B5B5B;
+    margin-bottom: 19px;
+    font-size: 28px;
+}
+.footer p{
+    color: #fff;
+    line-height: 35px;
+    font-size: 17px;
+}
+/* footer area end */
